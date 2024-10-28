@@ -39,9 +39,9 @@ function draw() {
   image(elevator, 0, 0, windowWidth, windowHeight);
 
   imageMode(CENTER);
-  image(Godzilla_Code, width / 2.8, height / 1.3, width / 5, height / 3.5);
+  image(Godzilla_Code, width / 2.8, height / 1.5, width / 5, height / 3.5);
 
-  image(Godzilla, width / 1.65, height / 1.3, width / 4, height / 4);
+  image(Godzilla, width / 1.65, height / 1.5, width / 4, height / 4);
 
   imageMode(CORNER);
 
@@ -82,9 +82,9 @@ function draw() {
   text(
     "Unfortunately I was not able to attend week 3 but I did look at the modules and did the video tutorial. I used my code to draw Godzilla! I didn’t know at the time but we were tasked with creating a portrait of ourselves using p5, I only found out the next week. \n\n If you would like to play with the code, click on the code!",
     width / 3,
-    height / 40,
+    height / 8,
     width / 3, // Specify the width for wrapping the text
-    height / 2  // Specify the height for wrapping the text
+    height / 4  // Specify the height for wrapping the text
   );
 }
 
@@ -98,7 +98,7 @@ function mousePressed() {
   }
 
   let Godzilla_CodeX = width / 2.8;  
-  let Godzilla_CodeY = height / 1.3;  
+  let Godzilla_CodeY = height / 1.5;  
   let Godzilla_CodeW = width / 5;  
   let Godzilla_CodeH = height / 3.5;  
   if (mouseX > Godzilla_CodeX - Godzilla_CodeW / 2 && mouseX < Godzilla_CodeX + Godzilla_CodeW / 2 && mouseY > Godzilla_CodeY - Godzilla_CodeH / 2 && mouseY < Godzilla_CodeY + Godzilla_CodeH / 2) {  
